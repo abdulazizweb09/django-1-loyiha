@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="bg-[#FEF2C1] w-full h-[100vh] pt-[34px]">
+        <div class="container ml-[76px]  max-w-[1097px] items-center bg-[#FEBE87] flex justify-between p-2 rounded-[30px]">
+            <h1 class="text-[48px] text-white ml-[57px]">DJ.</h1>
+            <ul class="flex gap-[74px] text-white text-xl">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Ticket`s</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">lupa</a></li>
+            </ul>
+            <button class="bg-[#FF5C19] py-[38px] px-[56px] rounded-[23px] text-white cursor-pointer text-xl">Sign in</button>
+        </div>
+        <div class="absolute top-0 right-0 text-white">
+            <img class="" src="{% static 'homepage/imgs/rectangle.png' %}" alt="">
+            <div class="absolute top-10 right-[283px]">
+                <p class="text-[48px] w-[120px]">230+</p>
+                <p class="text-[22px] w-[136px]">Concert experience </p>
+            </div>
+            <div class="absolute top-10 right-[23px]">
+                <img src="{% static 'homepage/imgs/doira.png' %}" alt="">
+            </div>
+            <div class="absolute top-[250px] right-[58px]">
+                <p class="text-[48px] w-[120px]">100+</p>
+                <p class="text-[22px] w-[136px]">work with singer's</p>
+            </div>
+        </div>
+        <div class="container ml-[76px] max-w-[1097px] mt-[157px]">
+            <h2 class="text-[#FE822C] text-[58px] w-[507px] font-bold">Experience the Ultimate DJ Vibes</h2>
+            <p class="text-[#FE822C] text-[26px] mt-[10px] font-semibold">Your Soundtrack to the Nightlife</p>
+            <div class="mt-10 flex items-center gap-[48px]">
+                <button class="px-[56px] py-[33px] rounded-[20px] cursor-pointer text-[26px] font-bold text-white bg-[#FE9E48]">ATTEND</button>
+                <div class="flex items-center gap-[20px] cursor-pointer">
+                    <button>
+                        <img class="cursor-pointer" src="{% static 'homepage/imgs/play.png' %}" alt="">
+                    </button>
+                    <p class="text-[#FE822C] text-[22px]">Play now...</p>
+                </div>
+            </div>
+        </div>
+        <div class="absolute top-[150px] left-[490px]">
+            <img class="w-[940px]" src="{% static 'homepage/imgs/girl.svg' %}" alt="">
+        </div>
+        <div class="absolute w-full mt-[91px]">
+            <img class="w-full" src="{% static 'homepage/imgs/footer.png' %}" alt="">
+        </div>
+        <div>
+            <div class="absolute flex left-[55px] top-[828px]">
+                <div class="text-white">
+                    <p class="text-[22px] font-semibold">Services</p>
+                    <p class="font-semibold w-[253px] mt-[24px]">SerCreating Soundtracks for Unforgettable Eventsvices</p>
+                    <p class="font-semibold w-[253px] mt-[24px]">Professional DJ Services Tailored to You</p>
+                    <p class="font-semibold w-[253px] mt-[24px]">From Clubs to Corporate, We’ve Got the Beats</p>
+                </div>
+                <div class="w-[343px]">
+                    <img class="w-[343px]" src="{% static 'homepage/imgs/card_music.svg' %}" alt="">
+                </div>
+            </div>
+            <div class="absolute flex right-[19px] top-[828px]">
+                <div class="w-[343px]">
+                    <img class="w-[343px]" src="{% static 'homepage/imgs/card_music.svg' %}" alt="">
+                </div>
+                <div class="text-white">
+                    <p class="text-[22px] font-semibold">Events Section:</p>
+                    <p class="font-semibold w-[253px] mt-[24px]">Join Us at Our Next Event: The Dance Floor Awaits</p>
+                    <p class="font-semibold w-[253px] mt-[24px]">Feel the Vibe: Upcoming DJ Sessions</p>
+                    <p class="font-semibold w-[253px] mt-[24px]">Don’t Miss Out: Upcoming Parties and Events</p>
+                </div>
+                
+            </div>
+            <div class="flex absolute w-full top-[1150px] justify-around items-center">
+                <div class="flex gap-[26px]">
+                   <img class="cursor-pointer" src="{% static 'homepage/imgs/facebook.svg' %}" alt="">    
+                   <img class="cursor-pointer" src="{% static 'homepage/imgs/twitter.svg' %}" alt="">    
+                </div>
+                <div>
+                    <p class="font-bold text-white">dj© all right reserve</p>
+                </div>
+                <div class="flex gap-[26px]">
+                   <img class="cursor-pointer" src="{% static 'homepage/imgs/discord(1).svg' %}" alt="">    
+                   <img class="cursor-pointer" src="{% static 'homepage/imgs/cus.svg' %}" alt="">    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
